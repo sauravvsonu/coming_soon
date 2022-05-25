@@ -6,20 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TailWind</title>
     <style>
-      
       img {
-        /* width: 1%; */
         height: 1%;
-        /* background: pink; */
         transition: all 1s ease;
-        /* position: absolute; */
       }
-      *:hover {
-        /* width: 100%; */
+      body:hover img {
         height: 100%;
       }
-      
-     
     </style>
   </head>
   <body
@@ -30,7 +23,14 @@
       overflow: hidden;
     "
   >
-    <div style="display: flex; justify-content: center; align-items: center">
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
       <img
         style="width: 100vw; justify-content: center"
         src="./coming_soon.jpg"
